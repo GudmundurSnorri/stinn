@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { MAIN_COLOR } from "../../styles.styled";
+import styled from 'styled-components'
+import { LOGOSTYLES, MAIN_COLOR, device } from '../../styles.styled'
 
 const HeaderContainer = styled.section`
   display: flex;
@@ -8,24 +8,27 @@ const HeaderContainer = styled.section`
   align-items: center;
   justify-content: space-between;
 
-`;
+  @media ${device.laptop} {
+  }
+`
 
 const Image = styled.div`
   display: flex;
   place-items: center;
-`;
+`
 const Header = styled.h1`
-  width: 100px;
-  padding-left: 2rem;
-  font-weight: 700;
-  line-height: 1.2;
-  font-size: 2.6rem;
-`;
+  ${LOGOSTYLES};
+  font-size: 4rem;
+`
 
 const ListHeading = styled.ul`
   display: flex;
   list-style: none;
-`;
+
+  @media ${device.laptop} {
+    display: none;
+  }
+`
 
 const ListItem = styled.a`
   margin: 0px 3rem;
@@ -34,11 +37,10 @@ const ListItem = styled.a`
   text-decoration: none;
 
   &:hover,
-  &:active, 
+  &:active,
   &:visited {
-      color: black;
+    color: black;
   }
+`
 
-`;
-
-export { HeaderContainer, Image, Header, ListHeading, ListItem };
+export { HeaderContainer, Image, Header, ListHeading, ListItem }

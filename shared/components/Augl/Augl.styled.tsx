@@ -1,50 +1,75 @@
-import styled from "styled-components";
-import pic from '../../assets/images/Ads/BigAugl.png';
+import styled from 'styled-components'
+import { device } from '../../styles.styled'
 
 const AuglContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin: 5rem 0rem;
+
+  @media ${device.laptop} {
+    justify-content: center;
+  }
+`
+
+const AuglContent = styled.div`
+  @media ${device.laptop} {
     width: 100%;
     display: flex;
     flex-direction: column;
-    place-items:center;
-    margin: 5rem 0rem;
-`;
-
-const AuglContent = styled.div``;
+    margin: auto;
+  }
+`
 const AuglText = styled.div`
-    margin-bottom: 1rem;
-    font-weight: 100;
-`;
-const AuglImage = styled.div``;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  width: 100%;
+`
+const AuglImage = styled.div`
+  width: 100%;
+`
 
 //LIST Auglýsignar
-
 const ListContainer = styled.div`
-    display: flex;
-    justify-content: space-between;
-    padding: 10rem 0rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10rem 0rem;
+  width: 100%;
+  flex-wrap: wrap;
 
-`;
-const ListImages = styled.img``;
-
+  @media ${device.laptop} {
+    justify-content: space-around;
+  }
+  @media ${device.mobile} {
+    flex-direction: column;
+  }
+`
+const ListImages = styled.img`
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  @media ${device.mobile} {
+    padding: 2rem 0rem;
+  }
+`
 
 // Big Augl
 const BigAuglContainer = styled.div`
-    display: flex;
-    margin: 12rem 0rem;
-    justify-content: center;
-`;
-const BigAuglImage = styled.img``;
-BigAuglImage.defaultProps = {
-    src: pic.src
-}
+  display: flex;
+  margin: 12rem 0rem;
+  justify-content: center;
+`
+const BigAuglImage = styled.img`
+  width: 100%;
+`
 
 export {
-    AuglContainer, 
-    AuglImage,
-    AuglText,
-    AuglContent,
-    ListContainer,
-    ListImages,
-    BigAuglContainer,
-    BigAuglImage,
+  AuglContainer,
+  AuglImage,
+  AuglText,
+  AuglContent,
+  ListContainer,
+  ListImages,
+  BigAuglContainer,
+  BigAuglImage,
 }

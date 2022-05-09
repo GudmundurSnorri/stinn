@@ -1,13 +1,13 @@
-import Link from "next/link";
-import React from "react";
-import ImageLogo from "../../assets/images/silogo.png";
+import Link from 'next/link'
+import React from 'react'
+import ImageLogo from '../../assets/images/silogo.png'
 
-import * as S from "./header.styled";
+import * as S from './header.styled'
 
 const Header = () => (
   <S.HeaderContainer>
     <S.Image>
-      <img src={ImageLogo.src} style={{ height: "69px", width: "74px" }} />
+      <img src={ImageLogo.src} style={{ height: '69px', width: '74px' }} />
       <S.Header>Stéttarfélag Innbrotsþjófa</S.Header>
     </S.Image>
     <S.ListHeading>
@@ -16,18 +16,18 @@ const Header = () => (
           Orlofshús
         </S.ListItem>
       </Link>
-        <Link href="/">
+      <Link href="/">
         <S.ListItem title="hæ" href="/">
           Félagsgjöld
         </S.ListItem>
       </Link>
-        <Link href="/">
+      <Link href="/">
         <S.ListItem title="hæ" href="/">
           Baráttan
         </S.ListItem>
-      </Link>  
+      </Link>
     </S.ListHeading>
   </S.HeaderContainer>
-);
+)
 
-export default Header;
+export default Header

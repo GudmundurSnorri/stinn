@@ -1,54 +1,75 @@
-import styled from "styled-components";
-import pic from '../../assets/images/Crypto-IMG.png';
-import { MAIN_COLOR } from "../../styles.styled";
+import styled from 'styled-components'
+import pic from '../../assets/images/Crypto-IMG.png'
+import { device, MAIN_COLOR } from '../../styles.styled'
 
 const Container = styled.div`
-    display: flex;
-    place-items: center;
-    background-color: ${MAIN_COLOR};
-`;
-const TextContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    width: 100%;
-`;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: ${MAIN_COLOR};
 
-const TextContent = styled.div`
+  @media ${device.mobile} {
     display: flex;
     flex-direction: column;
     place-items: center;
-    width: 600px;
-    text-align: left;
-`;
+  }
+`
+const TextContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  width: 100%;
+`
 
+const TextContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  text-align: left;
+
+  @media ${device.laptopL} {
+    padding: 4rem 4rem;
+    width: 100%;
+  }
+  @media ${device.laptop} {
+    width: 100%;
+    padding: 4rem 4rem;
+  }
+`
 
 const TextHeader = styled.h2`
-    font-size: 5.4rem;
-    letter-spacing: -0.3rem;
-    color: white;
-    text-transform: uppercase;
-    margin: 0px;
-`;
-const TextDescription = styled.p`
-    font-size: 2rem;
-    line-height: 160%;
-    padding: 0rem 1rem;    
+  font-size: 5.4rem;
+  font-family: 'akkordeon';
+  color: white;
+  text-transform: uppercase;
+  margin: 0px;
 
-`;
-const ImageContainer = styled.div``;
-const Image = styled.img``;
+  @media ${device.laptop} {
+    padding-right: 12rem;
+  }
+`
+const TextDescription = styled.p`
+  font-size: 2rem;
+  line-height: 160%;
+  padding: 0rem 1rem;
+  font-weight: 300;
+  color: white;
+`
+const ImageContainer = styled.div``
+const Image = styled.img`
+  width: 100%;
+`
 
 Image.defaultProps = {
-    src: pic.src
+  src: pic.src,
 }
 
 export {
-    Container,
-    TextContainer,
-    TextHeader,
-    TextDescription,
-    Image,
-    ImageContainer,
-    TextContent
+  Container,
+  TextContainer,
+  TextHeader,
+  TextDescription,
+  Image,
+  ImageContainer,
+  TextContent,
 }

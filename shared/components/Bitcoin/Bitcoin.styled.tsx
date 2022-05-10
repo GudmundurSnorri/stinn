@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import pic from '../../assets/images/Crypto-IMG.png'
-import { device, MAIN_COLOR } from '../../styles.styled'
+import { device, MAIN_COLOR, PARAGRAPH } from '../../styles.styled'
 
 const Container = styled.div`
   display: grid;
@@ -49,7 +49,7 @@ const TextHeader = styled.h2`
   }
 `
 const TextDescription = styled.p`
-  font-size: 2rem;
+  ${PARAGRAPH};
   line-height: 160%;
   padding: 0rem 1rem;
   font-weight: 300;

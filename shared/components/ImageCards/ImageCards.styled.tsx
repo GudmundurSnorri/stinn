@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device, MAIN_COLOR, MAIN_FONT } from '../../styles.styled'
+import { device, MAIN_COLOR, MAIN_FONT, PARAGRAPH } from '../../styles.styled'
 
 const CardContainer = styled.div`
   display: flex;
@@ -65,7 +65,7 @@ const CardTextHeader = styled.h2`
   }
 `
 const CardTextDescription = styled.p`
-  font-size: 1.6rem;
+  ${PARAGRAPH};
   padding-left: 2rem;
   margin: 4rem 0rem;
   color: #000000;

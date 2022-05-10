@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { device, MAIN_COLOR, MAIN_FONT } from '../../styles.styled'
+import { device, MAIN_COLOR, MAIN_FONT, PARAGRAPH } from '../../styles.styled'
 
 const Container = styled.div`
   display: flex;
@@ -38,13 +38,13 @@ const TextHeader = styled.h2`
   @media ${device.laptop} {
     margin: 2rem 0rem;
     padding-right: 5rem;
-    font-size: 8rem;
+    font-size: 7rem;
   }
 
   @media ${device.mobile} {
     margin: 2rem 0rem;
     padding-right: 0rem;
-    font-size: 8rem;
+    font-size: 7rem;
   }
 `
 const TextContent = styled.div`
@@ -55,11 +55,8 @@ const TextContent = styled.div`
   }
 `
 const TextDescription = styled.p`
-  font-size: 1.8rem;
+  ${PARAGRAPH};
   line-height: 160%;
-  @media ${device.laptop} {
-    font-size: 3rem;
-  }
 `
 const TextList = styled.ul`
   @media ${device.laptop} {
@@ -75,7 +72,7 @@ const TextItem = styled.li`
   @media ${device.laptop} {
     list-style: none;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem 0rem;
   }
 `

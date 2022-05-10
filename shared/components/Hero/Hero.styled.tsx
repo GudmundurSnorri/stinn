@@ -14,10 +14,12 @@ const HeroImage = styled.img`
   object-fit: fit;
   position: absolute;
   height: 812px;
+  object-position: right;
 
   @media ${device.laptop} {
     height: 100%;
     object-fit: cover;
+    object-position: 75% 25%;
   }
 `
 
@@ -33,7 +35,7 @@ const HeroText = styled.h1`
 
   & > span {
     text-decoration: underline;
-    text-underline-offset: 0.5rem;
+    text-underline-offset: 0.2rem;
   }
 
   @media ${device.laptop} {

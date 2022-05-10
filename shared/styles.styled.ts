@@ -8,7 +8,9 @@ export const HEADING = `
     line-height: 6.4rem;
     letter-spacing: 0rem;
 `;
-export const PARAGRAPH = ``;
+export const PARAGRAPH = `
+  font-size: 3rem;
+`;
 export const LOGOSTYLES = `
   width: 100px;
   padding-left: 2rem;

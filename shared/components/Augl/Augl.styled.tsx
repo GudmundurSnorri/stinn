@@ -5,7 +5,8 @@ const AuglContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 5rem 0rem;
 
   @media ${device.laptop} {
@@ -14,6 +15,12 @@ const AuglContainer = styled.div`
 `
 
 const AuglContent = styled.div`
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   @media ${device.laptop} {
     width: 100%;
     display: flex;

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device, MAIN_COLOR } from '../../styles.styled'
+import { device, MAIN_COLOR, PARAGRAPH } from '../../styles.styled'
 
 const CIContainer = styled.div`
   position: relative;
@@ -115,7 +115,14 @@ const TextDescription = styled.p`
   padding-bottom: 1rem;
   font-weight: 300;
   line-height: 168%;
-  font-size: 2rem;
+  ${PARAGRAPH};
+  @media ${device.laptop} {
+    width: 50%;
+  }
+
+  @media ${device.tablet} {
+    width: 100%;
+  }
 `
 
 const TextButton = styled.a`
@@ -126,7 +133,7 @@ const TextButton = styled.a`
   font-weight: 400;
   padding: 0.8rem 1.6rem;
   border-radius: 0.1rem;
-  font-size: 1.6rem;
+  ${PARAGRAPH};
   text-decoration: none;
 `
 

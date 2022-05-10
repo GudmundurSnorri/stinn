@@ -6,7 +6,7 @@ const Container = styled.div`
   display: flex;
   justify-content: flex-start;
   padding: 5.8rem 6.4rem 12.2rem 6.4rem;
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     flex-direction: column;
   }
 `

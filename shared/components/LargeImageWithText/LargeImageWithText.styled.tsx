@@ -5,7 +5,7 @@ import { device, MAIN_COLOR, MAIN_FONT, PARAGRAPH } from '../../styles.styled'
 const Container = styled.div`
   display: flex;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     flex-direction: column;
   }
 `
@@ -24,7 +24,7 @@ const TextContainer = styled.div`
   justify-content: center;
   padding: 2rem 5rem;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     padding: 0rem;
   }
 `

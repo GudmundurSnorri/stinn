@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device, HEADING, MAIN_COLOR } from '../../styles.styled'
+import { device, HEADING, MAIN_COLOR, MAIN_FONT } from '../../styles.styled'
 
 const Container = styled.section`
   display: grid;
@@ -38,6 +38,7 @@ const TextHeader = styled.h1`
   text-transform: uppercase;
   margin: 0rem 0rem 5rem 0rem;
   ${HEADING};
+
   padding-right: 15rem;
   letter-spacing: 0.2rem;
   @media ${device.laptop} {

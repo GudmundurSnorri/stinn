@@ -9,7 +9,7 @@ const CIContainer = styled.div`
   height: fit-content;
   margin-bottom: 20rem;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     flex-direction: column-reverse;
     margin-bottom: 10rem;
   }
@@ -93,6 +93,7 @@ const TextContainer = styled.div`
   @media ${device.laptop} {
     width: 100%;
     margin: 5rem 0rem;
+    padding: 0rem 3rem;
   }
 `
 const TextHeader = styled.h2`
@@ -116,11 +117,12 @@ const TextDescription = styled.p`
   font-weight: 300;
   line-height: 168%;
   ${PARAGRAPH};
-  @media ${device.laptop} {
+
+  @media ${device.tablet} {
     width: 50%;
   }
 
-  @media ${device.tablet} {
+  @media ${device.mobile} {
     width: 100%;
   }
 `

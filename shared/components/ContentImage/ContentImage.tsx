@@ -6,10 +6,10 @@ const ContentImage = () => {
   return (
     <S.CIContainer>
       <ImageContainer />
-      <ScrollableImageContainer />
       <S.TextContainer>
         <S.TextHeader>Orlofshús</S.TextHeader>
         <S.TextPill>Laus um helgina!</S.TextPill>
+        <ScrollableImageContainer />
         <S.TextDescription>
           Munið orlofshúsavefinn þar sem má finna bústaði og orlofshús sem eiga
           að vera auð, yfirgefin og aðgengileg öllum félagsmönnum. Fyrstur kemur

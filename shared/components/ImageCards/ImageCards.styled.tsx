@@ -44,7 +44,8 @@ const CardTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 1rem 1rem;
-
+  height: 100%;
+  justify-content: space-evenly;
   @media ${device.laptop} {
     padding: 0rem;
   }
@@ -70,6 +71,7 @@ const CardTextDescription = styled.p`
   margin: 4rem 0rem;
   color: #000000;
   font-weight: 300;
+
   @media ${device.laptop} {
     font-size: 3rem;
   }

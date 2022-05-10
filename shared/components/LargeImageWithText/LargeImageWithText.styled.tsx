@@ -1,10 +1,16 @@
 import styled from 'styled-components'
 
-import { device, MAIN_COLOR, MAIN_FONT, PARAGRAPH } from '../../styles.styled'
+import {
+  device,
+  MAIN_COLOR,
+  MAIN_FONT,
+  NOT_MAX_WIDTH,
+  PARAGRAPH,
+} from '../../styles.styled'
 
 const Container = styled.div`
   display: flex;
-
+  ${NOT_MAX_WIDTH}
   @media ${device.tablet} {
     flex-direction: column;
   }

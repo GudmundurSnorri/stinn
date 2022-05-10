@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { device, LOGOSTYLES } from '../../styles.styled'
 
 const Container = styled.div`
+  position: relative;
   background-color: #000;
   display: flex;
   justify-content: flex-start;

@@ -75,17 +75,7 @@ const Home: NextPage = () => {
 export default Home
 
 const Main = styled.main`
-  padding: 0px 10rem;
-  max-width: 1600px;
-  margin: auto;
+  position: relative;
+
   font-family: 'Poppins', sans-serif;
-
-  @media ${device.desktop} {
-    padding: 0px 5rem;
-  }
-
-  @media ${device.laptop} {
-    max-width: 100%;
-    padding: 3rem;
-  }
 `

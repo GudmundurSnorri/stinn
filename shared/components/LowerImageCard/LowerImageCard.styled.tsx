@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device, HEADING, MAIN_COLOR, MAIN_FONT } from '../../styles.styled'
+import { device, HEADING, MAIN_COLOR } from '../../styles.styled'
 
 const Container = styled.section`
   display: grid;

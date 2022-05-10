@@ -1,5 +1,4 @@
 
-
 export const MAIN_COLOR = '#20C420';
 export const MAIN_FONT = 'font-family: Akkordeon;'
 export const HEADING = `
@@ -37,4 +36,6 @@ export const device = {
   desktopL: `(max-width: ${size.desktop})`
 };
 
-export const CAMPAIGN_LINK = `https://www.nova.is/sjalfsvorn?utm_source=samtokInnbrotsthjofa_Website&utm_medium=banner&utm_campaign=stettarfelag_innbrotsthjofa&utm_id=Samtokthjofa`
+export const NOT_MAX_WIDTH = `max-width: 1600px;   margin: auto;`;
+
+export const CAMPAIGN_LINK = `https://www.nova.is/sjalfsvorn?utm_source=samtokInnbrotsthjofa_Website&utm_medium=banner&utm_campaign=stettarfelag_innbrotsthjofa&utm_id=Samtokthjofa`;

@@ -42,7 +42,7 @@ const ImageCardContainer = () => (
       img={{
         src: CardsArray[0].img.src,
       }}
-      title={CardsArray[0].description}
+      title={CardsArray[0].title}
       description={CardsArray[0].description}
     />
     <Link href={CAMPAIGN_LINK}>
@@ -55,7 +55,7 @@ const ImageCardContainer = () => (
       img={{
         src: CardsArray[1].img.src,
       }}
-      title={CardsArray[1].description}
+      title={CardsArray[1].title}
       description={CardsArray[1].description}
     />
     <Link href={CAMPAIGN_LINK}>
@@ -68,7 +68,7 @@ const ImageCardContainer = () => (
       img={{
         src: CardsArray[2].img.src,
       }}
-      title={CardsArray[2].description}
+      title={CardsArray[2].title}
       description={CardsArray[2].description}
     />
     <Link href={CAMPAIGN_LINK}>

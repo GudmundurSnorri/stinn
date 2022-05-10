@@ -1,5 +1,10 @@
 import styled from 'styled-components'
-import { LOGOSTYLES, MAIN_COLOR, device } from '../../styles.styled'
+import {
+  LOGOSTYLES,
+  MAIN_COLOR,
+  device,
+  NOT_MAX_WIDTH,
+} from '../../styles.styled'
 
 const HeaderContainer = styled.section`
   display: flex;
@@ -7,7 +12,7 @@ const HeaderContainer = styled.section`
   height: 14.4rem;
   align-items: center;
   justify-content: space-between;
-
+  ${NOT_MAX_WIDTH}
   @media ${device.laptop} {
   }
 `

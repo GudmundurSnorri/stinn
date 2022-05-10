@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../../styles.styled'
+import { device, NOT_MAX_WIDTH } from '../../styles.styled'
 
 const AuglContainer = styled.div`
   width: 100%;
@@ -7,6 +7,7 @@ const AuglContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   margin: 5rem 0rem;
 
   @media ${device.laptop} {
@@ -48,6 +49,7 @@ const ListContainer = styled.div`
   padding: 10rem 0rem;
   width: 100%;
   flex-wrap: wrap;
+  ${NOT_MAX_WIDTH};
 
   @media ${device.laptop} {
     justify-content: space-around;
@@ -82,7 +84,11 @@ const BigAuglContainer = styled.div`
   justify-content: center;
 `
 const BigAuglImage = styled.img`
-  width: 100%;
+  ${NOT_MAX_WIDTH};
+
+  @media ${device.tablet} {
+    width: 100%;
+  }
 `
 
 export {

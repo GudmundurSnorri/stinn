@@ -1,8 +1,15 @@
 import styled from 'styled-components'
-import { device, MAIN_COLOR, PARAGRAPH } from '../../styles.styled'
+import {
+  device,
+  MAIN_COLOR,
+  NOT_MAX_WIDTH,
+  PARAGRAPH,
+} from '../../styles.styled'
 
 const CIContainer = styled.div`
   position: relative;
+  ${NOT_MAX_WIDTH};
+  left: 0;
   display: flex;
   place-items: center;
   width: 100%;

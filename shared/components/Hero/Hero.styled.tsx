@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { device, HEADING, MAIN_COLOR } from '../../styles.styled'
+import { device, HEADING, MAIN_COLOR, NOT_MAX_WIDTH } from '../../styles.styled'
 
 const HeroBackground = styled.div`
   position: relative;
@@ -9,6 +9,7 @@ const HeroBackground = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  ${NOT_MAX_WIDTH}
 
   @media ${device.tablet} {
     align-items: flex-start;
@@ -20,6 +21,8 @@ const HeroImage = styled.img`
   overflow: hidden;
   object-fit: cover;
   position: absolute;
+  top: 0px;
+  left: 0px;
   height: 812px;
   object-position: 75%;
 

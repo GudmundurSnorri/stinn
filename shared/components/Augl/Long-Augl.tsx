@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './Augl.styled'
-import auglimg from '../../assets/images/augl.png'
+import auglimg from '../../assets/images/Ads/efstaaugl.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { CAMPAIGN_LINK } from '../../styles.styled'

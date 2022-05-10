@@ -25,7 +25,9 @@ const ContentImage = () => {
           að vera auð, yfirgefin og aðgengileg öllum félagsmönnum. Fyrstur kemur
           fyrstur fær!
         </S.TextDescription>
-        <S.TextButton href="https://www.orlof.is/vr/">Nánar</S.TextButton>
+        <S.TextButton href="https://www.orlof.is/vr/" target={'_blank'}>
+          Nánar
+        </S.TextButton>
       </S.TextContainer>
     </S.CIContainer>
   )

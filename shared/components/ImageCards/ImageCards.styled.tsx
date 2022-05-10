@@ -77,6 +77,21 @@ const CardTextDescription = styled.p`
   }
 `
 
+// AAADS
+const AdsWithTextContainer = styled.div`
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0rem;
+
+  @media ${device.mobile} {
+    display: flex;
+  }
+`
+
+const AdsWithTextDescription = styled.p``
+const AdsWithTextImage = styled.img``
+
 export {
   CardContainer,
   CardImage,
@@ -84,4 +99,7 @@ export {
   CardTextDescription,
   CardTextHeader,
   Card,
+  AdsWithTextContainer,
+  AdsWithTextDescription,
+  AdsWithTextImage,
 }

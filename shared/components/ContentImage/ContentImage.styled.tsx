@@ -13,6 +13,9 @@ const CIContainer = styled.div`
     flex-direction: column-reverse;
     margin-bottom: 10rem;
   }
+  @media ${device.mobile} {
+    margin-bottom: 4rem;
+  }
 `
 
 const ImageContainer = styled.div`

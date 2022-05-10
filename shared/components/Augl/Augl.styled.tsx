@@ -65,12 +65,15 @@ const ListImages = styled.img<ListImageProps>`
   }
 
   @media ${device.mobile} {
-    padding: 2rem 0rem;
+    display: ${(p) => (p.noPhone ? 'none' : 'block')};
+    padding: 1rem 0rem;
+    margin: 2rem;
   }
 `
 
 type ListImageProps = {
   notCursor?: boolean
+  noPhone?: boolean
 }
 // Big Augl
 const BigAuglContainer = styled.div`

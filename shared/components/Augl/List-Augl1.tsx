@@ -10,12 +10,12 @@ const ListaAugl = () => (
   <S.ListContainer>
     <S.ListImages src={Sokkabuxur.src} notCursor />
     <Link href={CAMPAIGN_LINK}>
-      <S.ListImages src={Augl2.src} />
+      <S.ListImages src={Augl2.src} noPhone />
     </Link>
     <Link href={CAMPAIGN_LINK}>
-      <S.ListImages src={Augl3.src} />
+      <S.ListImages src={Augl3.src} noPhone />
     </Link>
-    <S.ListImages src={Skipti.src} notCursor />
+    <S.ListImages src={Skipti.src} notCursor noPhone />
   </S.ListContainer>
 )
 

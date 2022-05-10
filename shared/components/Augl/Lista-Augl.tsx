@@ -12,7 +12,7 @@ const ListaAugl = () => (
       <S.ListImages src={Augl1.src} />
     </Link>
     <Link href={CAMPAIGN_LINK}>
-      <S.ListImages src={Augl2.src} />
+      <S.ListImages src={Augl2.src} noPhone />
     </Link>
     <S.ListImages src={Skipti.src} notCursor />
     <Link href={CAMPAIGN_LINK}>

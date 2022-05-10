@@ -6,42 +6,27 @@ const HeroBackground = styled.div`
   position: relative;
   width: 100%;
   height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media ${device.tablet} {
+    align-items: flex-start;
+  }
 `
 
 const HeroImage = styled.img`
   width: 100%;
   overflow: hidden;
-  object-fit: fit;
+  object-fit: cover;
   position: absolute;
   height: 812px;
-  object-position: right;
+  object-position: 75%;
 
-  @media ${device.laptop} {
+  @media ${device.tablet} {
     height: 100%;
     object-fit: cover;
-    object-position: 75% 25%;
-  }
-`
-
-const HeroText = styled.h1`
-  font-size: 8rem;
-  padding: 0rem 2rem;
-  margin: 0px;
-  background-color: ${MAIN_COLOR};
-  color: white;
-  width: fit-content;
-  text-transform: uppercase;
-  ${HEADING};
-
-  & > span {
-    text-decoration: underline;
-    text-underline-offset: 0.2rem;
-  }
-
-  @media ${device.laptop} {
-    padding: 2rem 2rem;
-    font-size: 8rem;
-    object-fit: contain;
+    object-position: center;
   }
 `
 const HeroTextContainer = styled.div`
@@ -55,6 +40,33 @@ const HeroTextContainer = styled.div`
   @media ${device.laptop} {
     width: 80%;
     margin: 10rem 4rem;
+  }
+`
+
+const HeroText = styled.h1`
+  font-size: 12rem;
+  padding: 3rem 2rem;
+  margin: 0rem;
+  background-color: ${MAIN_COLOR};
+  color: white;
+  width: fit-content;
+  text-transform: uppercase;
+
+  ${HEADING};
+
+  & > span {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+  }
+
+  @media ${device.laptop} {
+    padding: 3rem 2rem;
+    font-size: 12rem;
+  }
+
+  @media ${device.mobile} {
+    padding: 3rem 2rem;
+    font-size: 8rem;
   }
 `
 

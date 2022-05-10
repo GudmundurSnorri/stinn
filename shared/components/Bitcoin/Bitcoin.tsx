@@ -1,7 +1,7 @@
 import * as S from './Bitcoin.styled'
 
 const Bitcoin = () => (
-  <S.Container>
+  <S.Container id="bitcoin">
     <S.TextContainer>
       <S.TextContent>
         <S.TextHeader>Örugg Greiðsluleið!</S.TextHeader>

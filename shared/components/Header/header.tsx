@@ -11,17 +11,17 @@ const Header = () => (
       <S.Header>Stéttarfélag Innbrotsþjófa</S.Header>
     </S.Image>
     <S.ListHeading>
-      <Link href="/">
+      <Link href="#Orlofshus" scroll={true}>
         <S.ListItem title="hæ" href="/">
           Orlofshús
         </S.ListItem>
       </Link>
-      <Link href="/">
+      <Link href="/#bitcoin">
         <S.ListItem title="hæ" href="/">
           Félagsgjöld
         </S.ListItem>
       </Link>
-      <Link href="/">
+      <Link href="/#hagsmunir">
         <S.ListItem title="hæ" href="/">
           Baráttan
         </S.ListItem>

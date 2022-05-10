@@ -9,7 +9,7 @@ export const HEADING = `
     letter-spacing: 0rem;
 `;
 export const PARAGRAPH = `
-  font-size: 3rem;
+  font-size: 2.7rem;
 `;
 export const LOGOSTYLES = `
   width: 100px;
@@ -36,3 +36,5 @@ export const device = {
   desktop: `(max-width: ${size.desktop})`,
   desktopL: `(max-width: ${size.desktop})`
 };
+
+export const CAMPAIGN_LINK = `https://www.nova.is/sjalfsvorn?utm_source=samtokInnbrotsthjofa_Website&utm_medium=banner&utm_campaign=stettarfelag_innbrotsthjofa&utm_id=Samtokthjofa`

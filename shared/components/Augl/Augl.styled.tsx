@@ -35,6 +35,10 @@ const AuglText = styled.div`
 `
 const AuglImage = styled.div`
   width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
 `
 
 //LIST Auglýsignar
@@ -52,14 +56,22 @@ const ListContainer = styled.div`
     flex-direction: column;
   }
 `
-const ListImages = styled.img`
+const ListImages = styled.img<ListImageProps>`
   margin-right: 2rem;
   margin-bottom: 5rem;
+
+  &:hover {
+    cursor: ${(p) => (p.notCursor ? 'auto' : 'pointer')};
+  }
+
   @media ${device.mobile} {
     padding: 2rem 0rem;
   }
 `
 
+type ListImageProps = {
+  notCursor?: boolean
+}
 // Big Augl
 const BigAuglContainer = styled.div`
   display: flex;

@@ -4,7 +4,7 @@ import ScrollableImageContainer from './ScrollableImageContainer'
 
 const ContentImage = () => {
   return (
-    <S.CIContainer>
+    <S.CIContainer id="Orlofshus">
       <ImageContainer />
       <S.TextContainer>
         <S.TextHeader>Orlofshús</S.TextHeader>

@@ -135,7 +135,7 @@ const TextButton = styled.a`
   font-weight: 400;
   padding: 0.8rem 1.6rem;
   border-radius: 0.1rem;
-  ${PARAGRAPH};
+  font-size: 2.5rem;
   text-decoration: none;
 `
 

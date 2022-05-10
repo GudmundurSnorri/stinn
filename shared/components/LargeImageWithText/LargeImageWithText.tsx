@@ -3,7 +3,7 @@ import pic from '../../assets/images/verjahagsmuni.png'
 import pic_small from '../../assets/images/verjahagsmunismall.png'
 
 const LargeImageWithText = () => (
-  <S.Container>
+  <S.Container id="hagsmunir">
     <S.ImageContainer>
       <S.Image src={pic.src} srcSet={`${pic_small.src} 768w`} />
     </S.ImageContainer>

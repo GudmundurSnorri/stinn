@@ -1,13 +1,14 @@
-import useWindowDimensions from '../../Hooks/useWindowDimensions'
 import * as S from './Augl.styled'
-import picSmall from '../../assets/images/Ads/BigAugl_small.png'
 import pic from '../../assets/images/Ads/BigAugl.png'
+import Link from 'next/link'
+import { CAMPAIGN_LINK } from '../../styles.styled'
 
 const BigAugl = () => {
-  const { width } = useWindowDimensions()
   return (
     <S.BigAuglContainer>
-      <S.BigAuglImage src={width > 768 ? pic.src : picSmall.src} />
+      <Link href={CAMPAIGN_LINK}>
+        <S.BigAuglImage src={pic.src} />
+      </Link>
     </S.BigAuglContainer>
   )
 }

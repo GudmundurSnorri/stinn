@@ -23,7 +23,7 @@ const GlobalStyle = createGlobalStyle`
   }
   html {
     font-size: 10px;
-
+    scroll-behavior: smooth;
     @media ${device.laptopL} {
       font-size: 8px;
     }

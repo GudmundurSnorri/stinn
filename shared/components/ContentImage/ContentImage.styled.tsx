@@ -8,13 +8,13 @@ import {
 
 const CIContainer = styled.div`
   position: relative;
-  ${NOT_MAX_WIDTH};
   left: 0;
   display: flex;
   place-items: center;
   width: 100%;
   height: fit-content;
   margin-bottom: 20rem;
+  ${NOT_MAX_WIDTH};
 
   @media ${device.tablet} {
     flex-direction: column-reverse;
@@ -104,6 +104,12 @@ const TextContainer = styled.div`
     width: 100%;
     margin: 5rem 0rem;
     padding: 0rem 3rem;
+  }
+
+  @media ${device.tablet} {
+    width: 100%;
+    margin: 5rem 0rem;
+    padding: 0rem;
   }
 `
 const TextHeader = styled.h2`

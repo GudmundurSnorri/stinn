@@ -1,14 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
-import ImageLogo from '../../assets/images/silogo.png'
+import ImageLogo from '../../assets/SVG/SI_logo-Header.svg'
 
 import * as S from './header.styled'
 
 const Header = () => (
   <S.HeaderContainer>
     <S.Image>
-      <img src={ImageLogo.src} style={{ height: '69px', width: '74px' }} />
-      <S.Header>Stéttarfélag Innbrotsþjófa</S.Header>
+      <img src={ImageLogo.src} />
     </S.Image>
     <S.ListHeading>
       <Link href="#Orlofshus" scroll={true}>

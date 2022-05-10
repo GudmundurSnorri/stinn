@@ -18,7 +18,6 @@ const HeroBackground = styled.div`
 
 const HeroImage = styled.img`
   width: 100%;
-  overflow: hidden;
   object-fit: cover;
   position: absolute;
   top: 0px;
@@ -28,7 +27,6 @@ const HeroImage = styled.img`
 
   @media ${device.tablet} {
     height: 100%;
-    object-fit: cover;
     object-position: center;
   }
 `

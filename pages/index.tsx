@@ -76,6 +76,5 @@ export default Home
 
 const Main = styled.main`
   position: relative;
-
   font-family: 'Poppins', sans-serif;
 `

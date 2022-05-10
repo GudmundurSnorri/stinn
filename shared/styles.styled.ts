@@ -36,6 +36,6 @@ export const device = {
   desktopL: `(max-width: ${size.desktop})`
 };
 
-export const NOT_MAX_WIDTH = `max-width: 1600px;   margin: auto;`;
+export const NOT_MAX_WIDTH = `max-width: 1600px; padding: 0rem 1rem;  margin: auto;`;
 
 export const CAMPAIGN_LINK = `https://www.nova.is/sjalfsvorn?utm_source=samtokInnbrotsthjofa_Website&utm_medium=banner&utm_campaign=stettarfelag_innbrotsthjofa&utm_id=Samtokthjofa`;

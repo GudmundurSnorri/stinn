@@ -7,8 +7,11 @@ const Container = styled.div`
   display: flex;
   justify-content: flex-start;
   padding: 5.8rem 6.4rem 12.2rem 6.4rem;
+  width: 100%;
+
   @media ${device.tablet} {
     flex-direction: column;
+    padding: 2rem 1rem;
   }
 `
 const ContainerCard = styled.div`

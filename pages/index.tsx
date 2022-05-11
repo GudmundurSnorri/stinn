@@ -17,7 +17,7 @@ import BelowHero from '../shared/components/BelowHero'
 import auglimg from '../shared/assets/images/Ads/efstaaugl.png'
 import Hreyfi from '../shared/assets/images/Ads/Hreyfiskynjarar_long.png'
 import Sumarbustadur from '../shared/assets/images/Ads/sumarbustadur.png'
-
+import GTagManager from '../shared/googletagmanager'
 // FONTS
 
 const GlobalStyle = createGlobalStyle`
@@ -35,12 +35,14 @@ const GlobalStyle = createGlobalStyle`
       font-size: 6px;
     }
   }
+  
 `
 
 const Home: NextPage = () => {
   return (
     <div>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <GTagManager />
       <link
         href="../shared/assets/fonts/Akkordeon-Eleven.otf"
         rel="stylesheet"

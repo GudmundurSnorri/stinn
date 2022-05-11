@@ -13,6 +13,7 @@ import ImageCardContainer from '../shared/components/ImageCards/'
 import LowerImageCard from '../shared/components/LowerImageCard'
 import Footer from '../shared/components/Footer'
 import { device } from '../shared/styles.styled'
+import BelowHero from '../shared/components/BelowHero'
 
 // FONTS
 
@@ -58,6 +59,7 @@ const Home: NextPage = () => {
         <Header />
         <Augl />
         <Hero />
+        <BelowHero />
         <ContentImage />
         <Bitcoin />
         <ListaAugl />

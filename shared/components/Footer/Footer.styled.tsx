@@ -9,9 +9,12 @@ const Container = styled.div`
   padding: 5.8rem 6.4rem 12.2rem 6.4rem;
   width: 100%;
 
+  @media ${device.laptop} {
+    padding: 5.8rem 0rem;
+  }
+
   @media ${device.tablet} {
     flex-direction: column;
-    padding: 2rem 1rem;
   }
 `
 const ContainerCard = styled.div`

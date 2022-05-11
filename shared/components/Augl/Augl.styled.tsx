@@ -21,14 +21,8 @@ const AuglContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @media ${device.laptop} {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
 `
+
 const AuglText = styled.div`
   margin-bottom: 1rem;
   font-weight: 100;
@@ -49,10 +43,12 @@ const ListContainer = styled.div`
   padding: 10rem 0rem;
   width: 100%;
   flex-wrap: wrap;
+
   ${NOT_MAX_WIDTH};
 
   @media ${device.laptop} {
     justify-content: space-around;
+    padding: 5rem 0rem;
   }
   @media ${device.mobile} {
     flex-direction: column;
@@ -64,6 +60,9 @@ const ListImages = styled.img<ListImageProps>`
 
   &:hover {
     cursor: ${(p) => (p.notCursor ? 'auto' : 'pointer')};
+  }
+  @media ${device.laptop} {
+    margin-right: 1rem;
   }
 
   @media ${device.mobile} {
@@ -82,12 +81,16 @@ const BigAuglContainer = styled.div`
   display: flex;
   margin: 12rem 0rem;
   justify-content: center;
+  width: 100%;
 `
 const BigAuglImage = styled.img`
   ${NOT_MAX_WIDTH};
+  width: 90%;
 
   @media ${device.tablet} {
-    width: 100%;
+    padding: 0px;
+  }
+  @media ${device.tablet} {
   }
 `
 

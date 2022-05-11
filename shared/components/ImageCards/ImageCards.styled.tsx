@@ -12,7 +12,6 @@ const CardContainer = styled.div`
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
-  ${NOT_MAX_WIDTH};
 
   @media ${device.tablet} {
     justify-content: flex-start;

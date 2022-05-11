@@ -5,12 +5,15 @@ import { device, HEADING, MAIN_COLOR, NOT_MAX_WIDTH } from '../../styles.styled'
 const HeroBackground = styled.div`
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 900px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   ${NOT_MAX_WIDTH}
 
+  @media ${device.laptop} {
+    padding: 5.8rem 0rem;
+  }
   @media ${device.tablet} {
     align-items: flex-start;
   }
@@ -24,6 +27,10 @@ const HeroImage = styled.img`
   left: 0px;
   height: 812px;
   object-position: 75%;
+
+  @media ${device.laptop} {
+    height: 812px;
+  }
 
   @media ${device.tablet} {
     height: 100%;

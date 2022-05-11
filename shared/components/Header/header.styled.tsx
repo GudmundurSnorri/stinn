@@ -14,6 +14,7 @@ const HeaderContainer = styled.section`
   justify-content: space-between;
   ${NOT_MAX_WIDTH}
   @media ${device.laptop} {
+    width: auto;
   }
 `
 

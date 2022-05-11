@@ -13,9 +13,13 @@ const CIContainer = styled.div`
   place-items: center;
   width: 100%;
   height: fit-content;
-  margin-bottom: 20rem;
   ${NOT_MAX_WIDTH};
+  margin-bottom: 20rem;
 
+  @media ${device.laptop} {
+    padding: 2rem 0rem;
+    margin: 0px;
+  }
   @media ${device.tablet} {
     flex-direction: column-reverse;
     margin-bottom: 10rem;
@@ -157,12 +161,12 @@ const TextButton = styled.a`
 
 const ScrollableContainer = styled.div`
   display: none;
-  overflow-y: scroll;
-  overflow-x: none;
-  width: 100%;
 
   @media ${device.laptop} {
+    overflow-y: scroll;
+    width: 100%;
     display: flex;
+    padding: 0rem 0rem;
   }
 `
 export {

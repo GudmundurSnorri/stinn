@@ -62,6 +62,11 @@ const ImageContainer = styled.div`
 `
 const Image = styled.img`
   width: 100%;
+  padding: 2rem;
+
+  @media ${device.tablet} {
+    padding: 0rem;
+  }
 `
 
 export {

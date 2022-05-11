@@ -1,22 +1,22 @@
 import React from 'react'
 import * as S from './Augl.styled'
 import auglimg from '../../assets/images/Ads/efstaaugl.png'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 import { CAMPAIGN_LINK } from '../../styles.styled'
 
-const Augl = () => {
+type AuglProps = {
+  img: StaticImageData
+}
+
+const Augl = ({ img }: AuglProps) => {
   return (
     <S.AuglContainer>
       <S.AuglContent>
         <S.AuglText>Auglýsing</S.AuglText>
         <Link href={CAMPAIGN_LINK}>
           <S.AuglImage>
-            <Image
-              src={auglimg.src}
-              width={auglimg.width}
-              height={auglimg.height}
-            />
+            <Image src={img.src} width={img.width} height={img.height} />
           </S.AuglImage>
         </Link>
       </S.AuglContent>

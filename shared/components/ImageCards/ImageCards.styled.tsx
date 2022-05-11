@@ -1,11 +1,5 @@
 import styled from 'styled-components'
-import {
-  device,
-  MAIN_COLOR,
-  MAIN_FONT,
-  NOT_MAX_WIDTH,
-  PARAGRAPH,
-} from '../../styles.styled'
+import { device, MAIN_COLOR, MAIN_FONT, PARAGRAPH } from '../../styles.styled'
 
 const CardContainer = styled.div`
   display: flex;
@@ -14,7 +8,9 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
 
   @media ${device.tablet} {
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+    width: auto;
   }
   @media ${device.mobile} {
     flex-direction: column;

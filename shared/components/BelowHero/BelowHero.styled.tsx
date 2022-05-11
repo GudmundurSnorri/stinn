@@ -7,7 +7,17 @@ const Container = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  max-height: 310px;
+
+  @media ${device.laptop} {
+    max-height: 215px;
+  }
+
+  @media ${device.tablet} {
+    max-height: unset;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem 5rem;
+  }
 `
 const ContainerCard = styled.div`
   margin-right: 5rem;
@@ -25,10 +35,13 @@ const AuglysingContainer = styled.div`
   @media ${device.laptop} {
     padding: 0rem;
   }
-
-  @media ${device.tablet} {
+`
+const AuglysingImage = styled.img`
+  @media ${device.laptop} {
+    max-height: 215px;
   }
 `
+
 const AuglysingText = styled.h6`
   font-weight: 300;
   font-size: 1rem;
@@ -36,6 +49,7 @@ const AuglysingText = styled.h6`
 
 export {
   AuglysingContainer,
+  AuglysingImage,
   AuglysingText,
   Container,
   FlexContainer,

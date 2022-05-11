@@ -111,9 +111,11 @@ const TextContainer = styled.div`
   }
 
   @media ${device.tablet} {
-    width: 100%;
     margin: 5rem 0rem;
     padding: 0rem;
+    text-align: unset;
+    width: auto;
+    margin-left: 5rem;
   }
 `
 const TextHeader = styled.h2`

@@ -11,8 +11,10 @@ import {
 const Container = styled.div`
   display: flex;
   ${NOT_MAX_WIDTH}
+
   @media ${device.tablet} {
     flex-direction: column;
+    padding: 0rem 3rem;
   }
 `
 const ImageContainer = styled.div`
@@ -79,10 +81,13 @@ const TextItem = styled.li`
   line-height: 160%;
 
   @media ${device.laptop} {
-    list-style: none;
     font-weight: 500;
     font-size: 2rem;
     padding: 1rem 0rem;
+  }
+  @media ${device.tablet} {
+    margin-left: 2rem;
+    list-style: none;
   }
 `
 

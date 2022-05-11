@@ -14,6 +14,9 @@ import LowerImageCard from '../shared/components/LowerImageCard'
 import Footer from '../shared/components/Footer'
 import { device } from '../shared/styles.styled'
 import BelowHero from '../shared/components/BelowHero'
+import auglimg from '../shared/assets/images/Ads/efstaaugl.png'
+import Hreyfi from '../shared/assets/images/Ads/Hreyfiskynjarar_long.png'
+import Sumarbustadur from '../shared/assets/images/Ads/sumarbustadur.png'
 
 // FONTS
 
@@ -57,10 +60,12 @@ const Home: NextPage = () => {
       <GlobalStyle />
       <Main>
         <Header />
-        <Augl />
+        <Augl img={auglimg} />
         <Hero />
         <BelowHero />
+        <Augl img={Hreyfi} />
         <ContentImage />
+        <Augl img={Sumarbustadur} />
         <Bitcoin />
         <ListaAugl />
         <LargeImageWithText />

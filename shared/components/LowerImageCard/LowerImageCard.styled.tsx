@@ -12,6 +12,12 @@ const Container = styled.section`
     display: flex;
     flex-direction: column;
   }
+
+  @media ${device.tablet} {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+  }
 `
 const TextContainer = styled.div`
   display: flex;

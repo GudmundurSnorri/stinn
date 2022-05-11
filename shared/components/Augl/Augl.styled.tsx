@@ -13,6 +13,10 @@ const AuglContainer = styled.div`
   @media ${device.laptop} {
     justify-content: center;
   }
+  @media ${device.mobile} {
+    width: auto;
+    padding: 0rem 2rem;
+  }
 `
 
 const AuglContent = styled.div`
@@ -69,6 +73,7 @@ const ListImages = styled.img<ListImageProps>`
     display: ${(p) => (p.noPhone ? 'none' : 'block')};
     padding: 1rem 0rem;
     margin: 2rem;
+    object-fit: contain;
   }
 `
 

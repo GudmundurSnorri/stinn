@@ -22,12 +22,20 @@ const Container = styled.section`
 const ContainerCard = styled.div`
   margin-right: 5rem;
   max-width: 55rem;
+
+  @media ${device.mobile} {
+    margin: 2rem 0rem;
+  }
 `
 const FlexContainer = styled.div`
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: space-evenly;
+
+  @media ${device.mobile} {
+    flex-direction: column;
+  }
 `
 
 const AuglysingContainer = styled.div`

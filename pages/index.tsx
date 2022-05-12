@@ -19,10 +19,7 @@ import Hreyfi from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_hreyfis
 import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_sumarbustadur.webp'
 
 const GlobalStyle = createGlobalStyle`
-@font-face {
-  font-family: "Akkordeon";
-  src: url("/fonts/Akkordeon-Eleven.otf");
-}
+
 
   html {
     font-size: 10px;
@@ -45,14 +42,9 @@ const Home: NextPage = () => {
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
         rel="stylesheet"
       />
-      <link
-        rel="preload"
-        href="/fonts/Akkordeon-Eleven.otf"
-        as="font"
-        crossOrigin=""
-      />
       <Head>
         <title>Stéttarfélag Innbrotsþjófa</title>
+        <link href="/fonts/global.css" rel="stylesheet" />
         <meta
           name="description"
           content="Stéttarfélag Innbrotsþjófa. Stéttarfélag í þágu innbrotsþjófa. Við megum ekki gleymast!"

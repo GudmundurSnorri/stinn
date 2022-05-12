@@ -17,6 +17,7 @@ const HreyfiskynjariContent = styled.div`
 `
 const HreyfiskynjariHeader = styled.h2`
   ${HEADING};
+  text-transform: uppercase;
   font-size: 4.8rem;
   line-height: 100%;
   margin: 0px;

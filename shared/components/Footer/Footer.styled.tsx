@@ -6,8 +6,7 @@ const Container = styled.div`
   background-color: #000;
   display: flex;
   justify-content: flex-start;
-  padding: 5.8rem 6.4rem 12.2rem 6.4rem;
-  width: 100%;
+  padding: 5.8rem 6.4rem 6.2rem 6.4rem;
 
   @media ${device.laptop} {
     padding: 5.8rem 0rem;

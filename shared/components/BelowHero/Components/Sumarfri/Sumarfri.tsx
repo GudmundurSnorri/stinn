@@ -14,7 +14,10 @@ const Sumarfri = () => (
       </S.SumarfriDescription>
       <S.SumarfriButtonContainer>
         <S.SumarfriButtons>
-          <Link href="https://twitter.com/innbrotsthjofar" target={'_blank'}>
+          <Link
+            href="https://www.instagram.com/stettarfelaginnbrotsthjofa"
+            target={'_blank'}
+          >
             <Image
               src={ig_white}
               alt="Instagram aðgangur Stéttarfélags Innbrotsþjófa"
@@ -22,7 +25,10 @@ const Sumarfri = () => (
           </Link>
         </S.SumarfriButtons>
         <S.SumarfriButtons>
-          <Link href="https://twitter.com/innbrotsthjofar" target={'_blank'}>
+          <Link
+            href="https://www.facebook.com/stettarfelaginnbrotsthjofa"
+            target={'_blank'}
+          >
             <Image
               src={fb_white}
               alt="Facebook aðgangur Stéttarfélags Innbrotsþjófa"

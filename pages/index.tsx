@@ -23,8 +23,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Akkordeon';
     src: url('/fonts/Akkordeon-Eleven.otf');
     font-display: swap;
-    font-weight: normal;
-    font-style: normal;
   }
 
   html {

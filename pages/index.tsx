@@ -21,7 +21,7 @@ import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_
 const GlobalStyle = createGlobalStyle`
 @font-face {
   font-family: "Akkordeon";
-  src: url("../public/fonts/Akkordeon-Eleven.otf");
+  src: url("/fonts/Akkordeon-Eleven.otf");
 }
 
   html {
@@ -45,7 +45,12 @@ const Home: NextPage = () => {
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
         rel="stylesheet"
       />
-
+      <link
+        rel="preload"
+        href="/fonts/Akkordeon-Eleven.otf"
+        as="font"
+        crossOrigin=""
+      />
       <Head>
         <title>Stéttarfélag Innbrotsþjófa</title>
         <meta
@@ -53,12 +58,6 @@ const Home: NextPage = () => {
           content="Stéttarfélag Innbrotsþjófa. Stéttarfélag í þágu innbrotsþjófa. Við megum ekki gleymast!"
         />
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="preload"
-          href="../public/fonts/Akkordeon-Eleven.otf"
-          as="font"
-          crossOrigin=""
-        />
       </Head>
 
       <Normalize />

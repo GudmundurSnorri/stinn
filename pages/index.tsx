@@ -14,9 +14,9 @@ import LowerImageCard from '../shared/components/LowerImageCard'
 import Footer from '../shared/components/Footer'
 import { device } from '../shared/styles.styled'
 import BelowHero from '../shared/components/BelowHero'
-import auglimg from '../shared/assets/images/Ads/efstaaugl.png'
-import Hreyfi from '../shared/assets/images/Ads/Hreyfiskynjarar_long.png'
-import Sumarbustadur from '../shared/assets/images/Ads/sumarbustadur.png'
+import auglimg from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_heimaoryggi.png'
+import Hreyfi from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_hreyfiskynjari.png'
+import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_sumarbustadur.png'
 
 const GlobalStyle = createGlobalStyle`
   @font-face {

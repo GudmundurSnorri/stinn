@@ -40,11 +40,13 @@ const FlexContainer = styled.div`
 
 const AuglysingContainer = styled.div`
   padding: 0rem 5rem 0rem 5rem;
+
   @media ${device.laptop} {
     padding: 0rem;
   }
 `
 const AuglysingImage = styled.img`
+  height: 280px;
   @media ${device.laptop} {
     max-height: 215px;
   }

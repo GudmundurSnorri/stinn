@@ -19,11 +19,11 @@ import Hreyfi from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_hreyfis
 import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_sumarbustadur.webp'
 
 const GlobalStyle = createGlobalStyle`
-  @font-face {
-    font-family: 'Akkordeon';
-    src: url('/fonts/Akkordeon-Eleven.otf');
-    font-display: swap;
-  }
+@font-face {
+  font-family: "Akkordeon";
+  src: url("/fonts/Akkordeon-Eleven.otf");
+  font-display: swap;
+}
 
   html {
     font-size: 10px;
@@ -41,16 +41,12 @@ const Home: NextPage = () => {
   return (
     <div>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
         rel="stylesheet"
       />
-      <link
-        href="/fonts/Akkordeon-Eleven.otf"
-        rel="stylesheet"
-        charSet="UTF-8"
-      />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
+
       <Head>
         <title>Stéttarfélag Innbrotsþjófa</title>
         <meta

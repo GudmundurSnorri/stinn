@@ -129,17 +129,21 @@ const BigAuglContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
+  width: 65%;
   @media ${device.laptop} {
     align-items: center;
     padding: 0px;
+  }
+
+  @media ${device.tablet} {
+    width: 100%;
   }
 `
 
 const BigAuglImage = styled.img`
   ${NOT_MAX_WIDTH};
   margin-top: 0px;
-
+  width: 100%;
   @media ${device.laptop} {
     width: 90%;
   }
@@ -151,6 +155,7 @@ const BigAuglImage = styled.img`
 const BigAuglText = styled.p`
   font-weight: 100;
   margin-left: 2rem;
+
   @media ${device.laptop} {
     width: 90%;
     margin-left: unset;

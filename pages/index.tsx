@@ -21,7 +21,7 @@ import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_
 const GlobalStyle = createGlobalStyle`
 @font-face {
   font-family: "Akkordeon";
-  src: url("/fonts/Akkordeon-Eleven.otf");
+  src: url("../public/fonts/Akkordeon-Eleven.otf");
 }
 
   html {
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
-          href="/fonts/Akkordeon-Eleven.otf"
+          href="../public/fonts/Akkordeon-Eleven.otf"
           as="font"
           crossOrigin=""
         />

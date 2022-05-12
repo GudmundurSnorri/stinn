@@ -33,7 +33,7 @@ const SumarfriButtonContainer = styled.div`
   justify-content: flex-end;
   width: 100%;
 `
-const SumarfriButtons = styled.a`
+const SumarfriButtons = styled.div`
   margin: 0rem 0.5rem;
   cursor: pointer;
 `

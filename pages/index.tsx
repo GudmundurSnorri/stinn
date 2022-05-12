@@ -14,9 +14,9 @@ import LowerImageCard from '../shared/components/LowerImageCard'
 import Footer from '../shared/components/Footer'
 import { device } from '../shared/styles.styled'
 import BelowHero from '../shared/components/BelowHero'
-import auglimg from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_heimaoryggi.png'
-import Hreyfi from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_hreyfiskynjari.png'
-import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_sumarbustadur.png'
+import auglimg from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_heimaoryggi.webp'
+import Hreyfi from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_hreyfiskynjari.webp'
+import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_sumarbustadur.webp'
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
         <title>Stéttarfélag Innbrotsþjófa</title>
         <meta
           name="description"
-          content="Stéttarfélag í þágu Innbrotsfjófa. Okkar fólk má ekki gleymast í stéttabaráttu stéttanna."
+          content="Stéttarfélag Innbrotsþjófa. Stéttarfélag í þágu innbrotsþjófa. Við megum ekki gleymast!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

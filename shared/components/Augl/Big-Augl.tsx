@@ -1,5 +1,5 @@
 import * as S from './Augl.styled'
-import pic from '../../assets/images/Ads/LargerThanLife/Ad_1018x360_Sjalfsvorn.png'
+import pic from '../../assets/images/Ads/LargerThanLife/Ad_1018x360_Sjalfsvorn.webp'
 import Link from 'next/link'
 import { CAMPAIGN_LINK } from '../../styles.styled'
 

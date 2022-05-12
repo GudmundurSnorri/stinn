@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import * as S from './BelowHero.styled'
 import Hreyfiskynjari from './Components/Hreyfiskynjari'
 import Sumarfri from './Components/Sumarfri'
-import pic from '../../assets/images/Ads/LargerThanLife/Ad_336x280_fri.png'
+import pic from '../../assets/images/Ads/LargerThanLife/Ad_336x280_fri.webp'
 
 const BelowHero = () => (
   <S.Container>

@@ -1,8 +1,8 @@
 import * as S from './Augl.styled'
-import Sokkabuxur from '../../assets/images/Ads/sokkabuxur.png'
-import Augl2 from '../../assets/images/Ads/LargerThanLife/Ad_336x280_odyrtheimakerfi.png'
-import Augl3 from '../../assets/images/Ads/LargerThanLife/Ad_336x280_styttrividbragdstimi.png'
-import Skipti from '../../assets/images/Ads/LargerThanLife/Ad_336x280_hreyfiskynjari.png'
+import Sokkabuxur from '../../assets/images/Ads/sokkabuxur.webp'
+import Augl2 from '../../assets/images/Ads/LargerThanLife/Ad_336x280_odyrtheimakerfi.webp'
+import Augl3 from '../../assets/images/Ads/LargerThanLife/Ad_336x280_styttrividbragdstimi.webp'
+import Skipti from '../../assets/images/Ads/LargerThanLife/Ad_336x280_hreyfiskynjari.webp'
 import Link from 'next/link'
 import { CAMPAIGN_LINK } from '../../styles.styled'
 

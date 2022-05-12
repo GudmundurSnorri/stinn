@@ -1,8 +1,8 @@
 import * as S from './ContentImage.styled'
-import image1 from '../../assets/images/Image-1.png'
-import image2 from '../../assets/images/Image-2.png'
-import image3 from '../../assets/images/Image.png'
-import image4 from '../../assets/images/IMG.png'
+import image1 from '../../assets/images/hallormsstadur.jpg'
+import image2 from '../../assets/images/kjarnaskogur.jpg'
+import image3 from '../../assets/images/midahusaskogur.jpg'
+import image4 from '../../assets/images/fludir.jpg'
 
 const ScrollableImageContainer = () => (
   <S.ScrollableContainer>

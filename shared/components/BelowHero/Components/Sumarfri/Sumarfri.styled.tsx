@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import vacay from '../../../../assets/images/vacay.png'
+import vacay from '../../../../assets/images/vacay.jpg'
 import { HEADING, PARAGRAPH } from '../../../../styles.styled'
 
 const SumarfriContainer = styled.div`
@@ -35,6 +35,7 @@ const SumarfriButtonContainer = styled.div`
 `
 const SumarfriButtons = styled.a`
   margin: 0rem 0.5rem;
+  cursor: pointer;
 `
 
 export {

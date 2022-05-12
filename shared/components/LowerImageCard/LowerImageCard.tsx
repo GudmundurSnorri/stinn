@@ -1,5 +1,5 @@
 import * as S from './LowerImageCard.styled'
-import pic from '../../assets/images/lowerImageCardpic.png'
+import pic from '../../assets/images/lowerImageCardpic.jpg'
 
 const LowerImageCard = () => (
   <S.Container>

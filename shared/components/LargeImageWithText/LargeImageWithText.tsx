@@ -1,11 +1,10 @@
 import * as S from './LargeImageWithText.styled'
-import pic from '../../assets/images/verjahagsmuni.png'
-import pic_small from '../../assets/images/verjahagsmunismall.png'
+import pic from '../../assets/images/verjahagsmuni.jpg'
 
 const LargeImageWithText = () => (
   <S.Container id="hagsmunir">
     <S.ImageContainer>
-      <S.Image src={pic.src} srcSet={`${pic_small.src} 768w`} />
+      <S.Image src={pic.src} />
     </S.ImageContainer>
     <S.TextContainer>
       <S.TextHeader>Verjum okkar hagsmuni!</S.TextHeader>

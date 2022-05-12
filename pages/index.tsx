@@ -50,7 +50,10 @@ const Home: NextPage = () => {
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <Head>
         <title>Stéttarfélag Innbrotsþjófa</title>
-        <meta name="description" content="Stéttarfélag í þágu Innbrotsfjófa" />
+        <meta
+          name="description"
+          content="Stéttarfélag í þágu Innbrotsfjófa. Okkar fólk má ekki gleymast í stéttabaráttu stéttanna."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

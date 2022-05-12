@@ -44,6 +44,7 @@ const HeroTextContainer = styled.div`
   position: absolute;
   z-index: 2;
   width: 40%;
+  font-family: 'Akkordeon';
 
   @media ${device.laptop} {
     width: 80%;

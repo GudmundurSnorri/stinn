@@ -21,7 +21,7 @@ import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Akkordeon';
-    src: url('/fonts/Akkordeon-Eleven.otf') format('otf');
+    src: url('/fonts/Akkordeon-Eleven.otf');
     font-display: swap;
   }
   html {

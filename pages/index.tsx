@@ -23,7 +23,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Akkordeon';
     src: url('/fonts/Akkordeon-Eleven.otf');
     font-display: swap;
+    font-weight: normal;
+    font-style: normal;
   }
+
   html {
     font-size: 10px;
     scroll-behavior: smooth;
@@ -43,6 +46,11 @@ const Home: NextPage = () => {
       <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
         rel="stylesheet"
+      />
+      <link
+        href="/fonts/Akkordeon-Eleven.otf"
+        rel="stylesheet"
+        charSet="UTF-8"
       />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <Head>

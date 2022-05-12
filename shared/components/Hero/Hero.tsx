@@ -7,7 +7,10 @@ const Hero = () => {
     <S.HeroBackground>
       <picture>
         <source srcSet={image1.src} media="(max-width: 768px)" />
-        <S.HeroImage srcSet={image.src} alt="" />
+        <S.HeroImage
+          srcSet={image.src}
+          alt="Frambjóðendur stéttarfélags innbrotsþjófa"
+        />
       </picture>
       <S.HeroTextContainer>
         <S.HeroText>

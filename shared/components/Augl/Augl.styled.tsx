@@ -64,6 +64,34 @@ const ListContainer = styled.div`
     flex-direction: column;
   }
 `
+
+const ListContentCard = styled.div<ListImageProps>`
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  @media ${device.mobile} {
+    display: ${(p) => (p.noPhone ? 'none' : 'flex')};
+    object-fit: contain;
+    align-items: center;
+  }
+`
+
+const ListContentText = styled.p<ListContentTextProps>`
+  margin-bottom: 1rem;
+  font-weight: 100;
+  width: 100%;
+  color: ${(p) => (p.hiddenText ? 'transparent' : '#000')};
+
+  @media ${device.mobile} {
+    padding-left: 2rem;
+    width: auto;
+  }
+`
+
+type ListContentTextProps = {
+  hiddenText?: boolean
+}
+
 const ListImages = styled.img<ListImageProps>`
   margin-right: 2rem;
   margin-bottom: 5rem;
@@ -94,14 +122,38 @@ const BigAuglContainer = styled.div`
   display: flex;
   margin: 12rem 0rem;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `
+const BigAuglContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  @media ${device.laptop} {
+    align-items: center;
+    padding: 0px;
+  }
+`
+
 const BigAuglImage = styled.img`
   ${NOT_MAX_WIDTH};
-
-  width: 1018px;
+  margin-top: 0px;
 
   @media ${device.laptop} {
     width: 90%;
+  }
+  @media ${device.tablet} {
+    padding: 0px;
+  }
+`
+
+const BigAuglText = styled.p`
+  font-weight: 100;
+  margin-left: 2rem;
+  @media ${device.laptop} {
+    width: 90%;
+    margin-left: unset;
   }
   @media ${device.tablet} {
     padding: 0px;
@@ -113,8 +165,12 @@ export {
   AuglImage,
   AuglText,
   AuglContent,
+  ListContentCard,
+  ListContentText,
   ListContainer,
   ListImages,
   BigAuglContainer,
   BigAuglImage,
+  BigAuglText,
+  BigAuglContent,
 }

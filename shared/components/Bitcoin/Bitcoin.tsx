@@ -13,7 +13,7 @@ const Bitcoin = () => (
       </S.TextContent>
     </S.TextContainer>
     <S.ImageContainer>
-      <S.Image />
+      <S.Image alt="Bitcoin Logo" />
     </S.ImageContainer>
   </S.Container>
 )

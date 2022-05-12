@@ -15,7 +15,10 @@ const LowerImageCard = () => (
       </S.TextContent>
     </S.TextContainer>
     <S.ImageContainer>
-      <S.Image src={pic.src} />
+      <S.Image
+        src={pic.src}
+        alt="Mynd af stjórn Stéttarfélags Innbrotsþjófa á stigagangi"
+      />
     </S.ImageContainer>
   </S.Container>
 )

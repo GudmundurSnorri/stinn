@@ -4,7 +4,10 @@ import pic from '../../assets/images/verjahagsmuni.jpg'
 const LargeImageWithText = () => (
   <S.Container id="hagsmunir">
     <S.ImageContainer>
-      <S.Image src={pic.src} />
+      <S.Image
+        src={pic.src}
+        alt="Mynd af stjórn Stéttarfélags Innbrotsþjófa fyrir utan heimili"
+      />
     </S.ImageContainer>
     <S.TextContainer>
       <S.TextHeader>Verjum okkar hagsmuni!</S.TextHeader>

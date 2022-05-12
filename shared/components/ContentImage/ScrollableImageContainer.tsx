@@ -7,19 +7,19 @@ import image4 from '../../assets/images/fludir.jpg'
 const ScrollableImageContainer = () => (
   <S.ScrollableContainer>
     <S.ImageAndTextContainer>
-      <S.Image src={image4.src} />
+      <S.Image src={image4.src} alt="Orlofshús Flúðir" />
       <S.ImageText>Flúðir</S.ImageText>
     </S.ImageAndTextContainer>
     <S.ImageAndTextContainer>
-      <S.Image src={image2.src} />
+      <S.Image src={image2.src} alt="Orlofshús Kjarnaskógur" />
       <S.ImageText>Kjarnaskógur</S.ImageText>
     </S.ImageAndTextContainer>
     <S.ImageAndTextContainer>
-      <S.Image src={image3.src} />
+      <S.Image src={image3.src} alt="Orlofshús Miðhúsaskógur" />
       <S.ImageText>Miðhúsaskógur</S.ImageText>
     </S.ImageAndTextContainer>
     <S.ImageAndTextContainer>
-      <S.Image src={image1.src} />
+      <S.Image src={image1.src} alt="Orlofshús Hallormsstaður" />
       <S.ImageText>Hallormsstaður</S.ImageText>
     </S.ImageAndTextContainer>
   </S.ScrollableContainer>

@@ -15,17 +15,26 @@ const Sumarfri = () => (
       <S.SumarfriButtonContainer>
         <S.SumarfriButtons>
           <Link href="https://twitter.com/innbrotsthjofar" target={'_blank'}>
-            <Image src={ig_white} />
+            <Image
+              src={ig_white}
+              alt="Instagram aðgangur Stéttarfélags Innbrotsþjófa"
+            />
           </Link>
         </S.SumarfriButtons>
         <S.SumarfriButtons>
           <Link href="https://twitter.com/innbrotsthjofar" target={'_blank'}>
-            <Image src={fb_white} />
+            <Image
+              src={fb_white}
+              alt="Facebook aðgangur Stéttarfélags Innbrotsþjófa"
+            />
           </Link>
         </S.SumarfriButtons>
         <S.SumarfriButtons>
           <Link href="https://twitter.com/innbrotsthjofar" target={'_blank'}>
-            <Image src={twitter_white} />
+            <Image
+              src={twitter_white}
+              alt="Twitter aðgangur Stéttarfélags Innbrotsþjófa"
+            />
           </Link>
         </S.SumarfriButtons>
       </S.SumarfriButtonContainer>

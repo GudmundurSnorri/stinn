@@ -6,7 +6,12 @@ const Footer = () => (
   <S.Container>
     <S.ContainerCard>
       <S.LogoContainer>
-        <Image src={pic.src} width={74} height={69} />
+        <Image
+          src={pic.src}
+          width={74}
+          height={69}
+          alt="Logo stéttarfélags innbrotsþjófa"
+        />
         <S.LogoText>Stéttarfélag Innbrotsþjófa</S.LogoText>
       </S.LogoContainer>
     </S.ContainerCard>

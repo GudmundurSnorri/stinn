@@ -16,7 +16,7 @@ const BelowHero = () => (
     </S.FlexContainer>
     <S.AuglysingContainer>
       <S.AuglysingText>Auglýsing</S.AuglysingText>
-      <S.AuglysingImage src={pic.src} />
+      <S.AuglysingImage src={pic.src} alt="Áhyggjulaus í fríið með Nova" />
     </S.AuglysingContainer>
   </S.Container>
 )

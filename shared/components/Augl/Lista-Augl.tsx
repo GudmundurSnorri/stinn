@@ -9,14 +9,39 @@ import { CAMPAIGN_LINK } from '../../styles.styled'
 const ListaAugl = () => (
   <S.ListContainer>
     <Link href={CAMPAIGN_LINK}>
-      <S.ListImages src={Augl1.src} />
+      <S.ListContentCard>
+        <S.ListContentText>Auglýsing</S.ListContentText>
+        <S.ListImages src={Augl1.src} alt="Öruggt heimili með Nova" />
+      </S.ListContentCard>
     </Link>
     <Link href={CAMPAIGN_LINK}>
-      <S.ListImages src={Augl2.src} noPhone />
+      <S.ListContentCard noPhone>
+        <S.ListContentText>Auglýsing</S.ListContentText>
+        <S.ListImages
+          src={Augl2.src}
+          noPhone
+          alt="Styttri viðbragðstími með öryggiskerfum nova!"
+        />
+      </S.ListContentCard>
     </Link>
-    <S.ListImages src={Skipti.src} notCursor />
+    <Link href="https://www.bland.is">
+      <S.ListContentCard>
+        <S.ListContentText hiddenText>Auglýsing</S.ListContentText>
+        <S.ListImages
+          src={Skipti.src}
+          notCursor
+          alt="Skiptimarkaður félagsmanna er á Facebook og Bland.is"
+        />
+      </S.ListContentCard>
+    </Link>
     <Link href={CAMPAIGN_LINK}>
-      <S.ListImages src={Augl3.src} />
+      <S.ListContentCard>
+        <S.ListContentText>Auglýsing</S.ListContentText>
+        <S.ListImages
+          src={Augl3.src}
+          alt="Skipti út gamla öryggiskerfinu með Nova"
+        />
+      </S.ListContentCard>
     </Link>
   </S.ListContainer>
 )

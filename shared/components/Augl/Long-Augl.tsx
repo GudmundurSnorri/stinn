@@ -16,7 +16,12 @@ const Augl = ({ img }: AuglProps) => {
         <S.AuglText>Auglýsing</S.AuglText>
         <Link href={CAMPAIGN_LINK}>
           <S.AuglImage>
-            <Image src={img.src} width={img.width} height={img.height} />
+            <Image
+              src={img.src}
+              width={img.width}
+              height={img.height}
+              alt="Heimaöryggi fyrir alla með Nova"
+            />
           </S.AuglImage>
         </Link>
       </S.AuglContent>

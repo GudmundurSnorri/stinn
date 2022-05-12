@@ -91,7 +91,9 @@ const AdsWithTextContainer = styled.div`
   }
 `
 
-const AdsWithTextDescription = styled.p``
+const AdsWithTextDescription = styled.p`
+  font-weight: 100;
+`
 const AdsWithTextImage = styled.img``
 
 export {

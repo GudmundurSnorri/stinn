@@ -22,7 +22,6 @@ const GlobalStyle = createGlobalStyle`
 @font-face {
   font-family: "Akkordeon";
   src: url("/fonts/Akkordeon-Eleven.otf");
-  font-display: swap;
 }
 
   html {

@@ -54,6 +54,12 @@ const Home: NextPage = () => {
           content="Stéttarfélag Innbrotsþjófa. Stéttarfélag í þágu innbrotsþjófa. Við megum ekki gleymast!"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="preload"
+          href="/fonts/Akkordeon-Eleven.otf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
 
       <Normalize />

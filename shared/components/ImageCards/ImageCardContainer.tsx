@@ -39,6 +39,7 @@ const CardsArray = [
 const ImageCardContainer = () => (
   <S.CardContainer>
     <ImageCards
+      link="https://www.youtube.com/watch?v=K9n03f9XFgE"
       img={{
         src: CardsArray[0].img.src,
         alt: 'Ræningi skoðar teikningar',
@@ -56,6 +57,7 @@ const ImageCardContainer = () => (
       </S.AdsWithTextContainer>
     </Link>
     <ImageCards
+      link="https://www.youtube.com/watch?v=HC0Iciajb4k"
       img={{
         src: CardsArray[1].img.src,
         alt: 'Einstaklingur að vinna frameftir',
@@ -73,6 +75,7 @@ const ImageCardContainer = () => (
       </S.AdsWithTextContainer>
     </Link>
     <ImageCards
+      link="https://www.youtube.com/watch?v=qWMlQ25_aS0"
       img={{
         src: CardsArray[2].img.src,
         alt: 'Ræningi tekinn upp',

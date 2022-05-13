@@ -10,11 +10,18 @@ const ListaAugl = () => (
   <S.ListContainer>
     <S.ListContentCard>
       <S.ListContentText hiddenText>Auglýsing</S.ListContentText>
-      <S.ListImages
-        src={Sokkabuxur.src}
-        notCursor
-        alt="Afnemum virðisaukaskattinn af sokkabuxum!"
-      />
+      <a
+        href="https://www.youtube.com/watch?v=C5U5m4ayE58"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}
+      >
+        <S.ListImages
+          src={Sokkabuxur.src}
+          notCursor
+          alt="Afnemum virðisaukaskattinn af sokkabuxum!"
+        />
+      </a>
     </S.ListContentCard>
     <Link href={CAMPAIGN_LINK}>
       <S.ListContentCard noPhone>

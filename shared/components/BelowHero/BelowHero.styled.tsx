@@ -41,6 +41,9 @@ const FlexContainer = styled.div`
 const AuglysingContainer = styled.div`
   padding: 0rem 5rem 0rem 5rem;
 
+  &:hover {
+    cursor: pointer;
+  }
   @media ${device.laptop} {
     padding: 0rem;
   }

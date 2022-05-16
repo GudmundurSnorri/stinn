@@ -1,18 +1,17 @@
 import Image from 'next/image'
 import * as S from './Footer.styled'
-import pic from '../../assets/images/footer/SIlogo.png'
-
+import pic from '../../assets/SVG/SI_Logo_footer.svg'
+console.log(pic)
 const Footer = () => (
   <S.Container>
     <S.ContainerCard>
       <S.LogoContainer>
         <Image
           src={pic.src}
-          width={74}
-          height={69}
+          width={pic.width}
+          height={pic.height}
           alt="Logo stéttarfélags innbrotsþjófa"
         />
-        <S.LogoText>Stéttarfélag Innbrotsþjófa</S.LogoText>
       </S.LogoContainer>
     </S.ContainerCard>
     <S.ContainerCard>

@@ -130,6 +130,11 @@ const BigAuglContent = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   width: 65%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
   @media ${device.laptop} {
     align-items: center;
     padding: 0px;

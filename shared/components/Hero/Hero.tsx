@@ -1,6 +1,6 @@
 import * as S from './Hero.styled'
 import image from '../../assets/images/background.jpg'
-import image1 from '../../assets/images/smallHero.png'
+import image1 from '../../assets/images/HEROmynd_JOL_22_mobile.jpg'
 
 const Hero = () => {
   return (

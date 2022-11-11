@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import * as S from './Footer.styled'
 import pic from '../../assets/SVG/SI_Logo_footer.svg'
-console.log(pic)
+
 const Footer = () => (
   <S.Container>
     <S.ContainerCard>

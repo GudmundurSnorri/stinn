@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       <Head>
         <link
           rel="preload"
-          href="/Fonts/Akkordeon-Eleven.otf"
+          href="/fonts/Akkordeon-Eleven.otf"
           as="font"
           type="font/otf"
           crossOrigin="anonymous"

@@ -18,12 +18,6 @@ const Hero = () => {
             alt="Frambjóðendur stéttarfélags innbrotsþjófa"
           />
         </picture>
-        <S.HeroTextContainer>
-          <S.HeroText>
-            Atvinnu<span>öryggi</span>
-          </S.HeroText>
-          <S.HeroText>fyrir alla</S.HeroText>
-        </S.HeroTextContainer>
       </S.HeroBackground>
     </a>
   )

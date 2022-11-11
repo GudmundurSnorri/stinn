@@ -66,6 +66,7 @@ const Image = styled.img`
   height: 34.4rem;
   width: 34.4rem;
   position: absolute;
+  object-fit: cover;
 
   @media ${device.laptop} {
     height: 100%;

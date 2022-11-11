@@ -1,5 +1,5 @@
 import * as S from './LowerImageCard.styled'
-import pic from '../../assets/images/lowerImageCardpic.jpg'
+import pic from '../../assets/images/NOVA_JOL_22_6.jpg'
 
 const LowerImageCard = () => (
   <a

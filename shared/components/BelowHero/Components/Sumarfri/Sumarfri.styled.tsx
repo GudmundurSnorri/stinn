@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import vacay from '../../../../assets/images/vacay.jpg'
+import vacay from '../../../../assets/images/Ads/LargerThanLife/skier-mature-man-on-40s-600w-63754225.webp'
 import { HEADING, PARAGRAPH } from '../../../../styles.styled'
 
 const SumarfriContainer = styled.div`
@@ -17,6 +17,7 @@ const SumarfriContent = styled.div`
 `
 const SumarfriHeader = styled.h2`
   ${HEADING};
+  text-shadow: 2px 2px 15px rgba(0,0,0,0.4);
   text-transform: uppercase;
   font-size: 4.8rem;
   line-height: 100%;
@@ -24,6 +25,7 @@ const SumarfriHeader = styled.h2`
 `
 const SumarfriDescription = styled.p`
   ${PARAGRAPH};
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 1);
   font-size: 2.4rem;
   line-height: 120%;
   padding: 2px;

@@ -1,5 +1,5 @@
 import * as S from './LargeImageWithText.styled'
-import pic from '../../assets/images/verjahagsmuni.jpg'
+import pic from '../../assets/images/NOVA_JOL_22_4.jpg'
 
 const LargeImageWithText = () => (
   <a

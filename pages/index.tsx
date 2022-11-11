@@ -14,7 +14,7 @@ import LowerImageCard from '../shared/components/LowerImageCard'
 import Footer from '../shared/components/Footer'
 import { device } from '../shared/styles.styled'
 import BelowHero from '../shared/components/BelowHero'
-import auglimg from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_heimaoryggi.webp'
+import auglimg from '../shared/assets/images/Ads/LargerThanLife/vefbordi.png'
 import Hreyfi from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_hreyfiskynjari.webp'
 import Sumarbustadur from '../shared/assets/images/Ads/LargerThanLife/Ad_728x90_sumarbustadur.webp'
 
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       <Head>
         <link
           rel="preload"
-          href="/fonts/Akkordeon-Eleven.otf"
+          href="/Fonts/Akkordeon-Eleven.otf"
           as="font"
           type="font/otf"
           crossOrigin="anonymous"

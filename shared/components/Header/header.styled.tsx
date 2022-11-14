@@ -21,6 +21,10 @@ const HeaderContainer = styled.section`
 const Image = styled.div`
   display: flex;
   place-items: center;
+
+  @media ${device.mobile} {
+    width: 100%;
+  }
 `
 const Header = styled.h1`
   ${LOGOSTYLES};

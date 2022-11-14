@@ -43,10 +43,13 @@ const HeroTextContainer = styled.div`
   margin: 12.4rem 7rem;
   position: absolute;
   z-index: 2;
-  width: 40%;
+  width: 50%;
 
   @media ${device.laptop} {
     width: 80%;
+    margin: 10rem 4rem;
+  }
+  @media ${device.mobile} {
     margin: 10rem 4rem;
   }
 `
@@ -74,7 +77,7 @@ const HeroText = styled.h1`
 
   @media ${device.mobile} {
     padding: 3rem 2rem;
-    font-size: 8rem;
+    font-size: 10rem;
   }
 `
 

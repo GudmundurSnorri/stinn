@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Sumarfri = () => (
   <S.SumarfriContainer>
     <S.SumarfriContent>
-      <S.SumarfriHeader>HÚSEIGANDI ER Sumarfrí framundan?</S.SumarfriHeader>
+      <S.SumarfriHeader>HÚSEIGANDI ER Jólafrí framundan?</S.SumarfriHeader>
       <S.SumarfriDescription>
         Láttu okkur vita á samfélagsmiðlum með mynd og dagssetningum
       </S.SumarfriDescription>

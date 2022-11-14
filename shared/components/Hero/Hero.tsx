@@ -12,7 +12,11 @@ const Hero = () => {
     >
       <S.HeroBackground>
         <picture>
-          <source srcSet={image1.src} media="(max-width: 768px)" />
+          <source
+            style={{ objectFit: 'none' }}
+            srcSet={image1.src}
+            media="(max-width: 468px)"
+          />
           <S.HeroImage
             srcSet={image.src}
             alt="Frambjóðendur stéttarfélags innbrotsþjófa"

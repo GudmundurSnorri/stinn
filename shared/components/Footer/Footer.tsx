@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import * as S from './Footer.styled'
-import pic from '../../assets/SVG/SI_Logo_footer.svg'
+import pic from '../../assets/images/SI_jola_logo_hvitt.png'
 
 const Footer = () => (
   <S.Container>
